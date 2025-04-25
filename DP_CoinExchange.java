@@ -22,7 +22,7 @@ public class DP_CoinExchange {
         return dp[n][sum];
     }
     public static void main(String[] args) {
-        int coins[]={2,5,3,6};
+        int coins[]={2,5,3,7};
         int sum=10;
         System.out.println(coinExchange(coins, sum));
     }
